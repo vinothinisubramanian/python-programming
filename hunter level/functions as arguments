@@ -1,0 +1,9 @@
+list=["GUVI"]
+def foo(X):
+	print X*5
+	
+def my_map_sample(fun, list):
+	for item in list:
+		fun(item)
+		
+my_map_sample(foo, list)
