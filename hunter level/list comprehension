@@ -1,0 +1,5 @@
+fruits=['orange', 'grape', 'kiwi', 'apple', 'mango', 'fig', 'lemon']
+newList = []
+for fruit in fruits:
+    newList.append(fruit.upper())
+print(newlist)
